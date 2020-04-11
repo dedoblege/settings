@@ -1,0 +1,57 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k C:\\Users\\dedob\\Desktop\\cmder\\vendor\\init.bat"
+    ],
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.semi": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "workbench.colorTheme": "Night Owl Light (No Italics)",
+    "workbench.colorCustomizations": {
+        "editor.background": "#F5F5F5",
+        "activityBar.background": "#8fb2e0",
+        "activityBar.foreground": "#0a3d9e",
+        "activityBar.inactiveForeground": "#477abd",
+        "terminal.background": "#F7F9FB",
+        "terminal.foreground": "#405C79",
+        "terminalCursor.background": "#405C79",
+        "terminalCursor.foreground": "#405C79",
+        "terminal.ansiBlack": "#F7F9FB",
+        "terminal.ansiBlue": "#8B56BF",
+        "terminal.ansiBrightBlack": "#AABCCE",
+        "terminal.ansiBrightBlue": "#8B56BF",
+        "terminal.ansiBrightCyan": "#568BBF",
+        "terminal.ansiBrightGreen": "#56BF8B",
+        "terminal.ansiBrightMagenta": "#BF568B",
+        "terminal.ansiBrightRed": "#BF8B56",
+        "terminal.ansiBrightWhite": "#0B1C2C",
+        "terminal.ansiBrightYellow": "#8BBF56",
+        "terminal.ansiCyan": "#568BBF",
+        "terminal.ansiGreen": "#56BF8B",
+        "terminal.ansiMagenta": "#BF568B",
+        "terminal.ansiRed": "#BF8B56",
+        "terminal.ansiWhite": "#405C79",
+        "terminal.ansiYellow": "#8BBF56"
+    },
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "off",
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+}
