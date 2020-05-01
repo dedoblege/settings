@@ -1,3 +1,14 @@
+After creating a new project via CLI
+	ng new [project]
 1) Copy the .prettierrc file to your root project
 2) Install prettier to your project
 	npm install prettier -D
+3) Install tslint-config-prettier
+	npm --save-dev tslint-config-prettier
+4) Add to the scripts in package.json:
+	"pretty": "prettier --write \"./**/*.{ts,html,css,js,jsx,json}\""
+5) Change the tslint.json
+	"extends": ["tslint-config-prettier"]
+6) Update all the project
+	npm run pretty
+	
