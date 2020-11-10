@@ -1,68 +1,46 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/k C:\\cmder\\vendor\\init.bat"
-    ],
-    "explorer.confirmDelete": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.semi": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true
-    },
-    "workbench.colorTheme": "Night Owl Light (No Italics)",
-    "workbench.colorCustomizations": {
-        "editor.background": "#f2f2f2",
-        "activityBar.background": "#d1d8df",
-        "activityBar.foreground": "#434c5c",
-        "activityBar.inactiveForeground": "#6a7380",
-        "terminal.background": "#F7F9FB",
-        "terminal.foreground": "#405C79",
-        "terminalCursor.background": "#405C79",
-        "terminalCursor.foreground": "#405C79",
-        "terminal.ansiBlack": "#F7F9FB",
-        "terminal.ansiBlue": "#8B56BF",
-        "terminal.ansiBrightBlack": "#AABCCE",
-        "terminal.ansiBrightBlue": "#8B56BF",
-        "terminal.ansiBrightCyan": "#568BBF",
-        "terminal.ansiBrightGreen": "#56BF8B",
-        "terminal.ansiBrightMagenta": "#BF568B",
-        "terminal.ansiBrightRed": "#BF8B56",
-        "terminal.ansiBrightWhite": "#0B1C2C",
-        "terminal.ansiBrightYellow": "#8BBF56",
-        "terminal.ansiCyan": "#568BBF",
-        "terminal.ansiGreen": "#56BF8B",
-        "terminal.ansiMagenta": "#BF568B",
-        "terminal.ansiRed": "#BF8B56",
-        "terminal.ansiWhite": "#405C79",
-        "terminal.ansiYellow": "#8BBF56"
-    },
-    "editor.fontSize": 15,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code",
-    "terminal.integrated.fontSize": 14,
-    "workbench.iconTheme": "vscode-icons",
-    "files.autoSave": "off",
-    "window.zoomLevel": 1,
-    "editor.formatOnSave": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 200,
-    "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": ["/k C:\\cmder\\vendor\\init.bat"],
+  "explorer.confirmDelete": false,
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false,
+  "workbench.colorTheme": "Github Light Theme - Gray",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorCustomizations": {
+    "terminalCursor.background": "#999999",
+    "terminalCursor.foreground": "#999999",
+    "terminal.ansiBrightGreen": "#216FCE",
+    "terminal.ansiBrightYellow": "#DF606B"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.autoSave": "off",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.showSlider": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false
 }
