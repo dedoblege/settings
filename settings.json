@@ -24,10 +24,28 @@
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 13,
   "workbench.colorCustomizations": {
-    "terminalCursor.background": "#999999",
-    "terminalCursor.foreground": "#999999",
-    "terminal.ansiBrightGreen": "#216FCE",
-    "terminal.ansiBrightYellow": "#DF606B"
+    // "terminal.background": ,
+    // "terminal.border": ,
+    "terminal.foreground": "#000",
+    "terminal.ansiBlack": "#dad8d8",
+    "terminal.ansiBlue": "#504f4f",
+    // "terminal.ansiBrightBlack": ,
+    // "terminal.ansiBrightBlue": ,
+    // "terminal.ansiBrightCyan": ,
+    // "terminal.ansiBrightGreen": ,
+    // "terminal.ansiBrightMagenta":,
+    // "terminal.ansiBrightRed": ,
+    // "terminal.ansiBrightWhite": ,
+    // "terminal.ansiBrightYellow": ,
+    // "terminal.ansiCyan": ,
+    // "terminal.ansiGreen": ,
+    // "terminal.ansiMagenta": ,
+    // "terminal.ansiRed": ,
+    // "terminal.ansiWhite": ,
+    "terminal.ansiYellow": "#838383",
+    // "terminal.selectionBackground": ,
+    "terminalCursor.background": "#000",
+    "terminalCursor.foreground": "#000"
   },
   "workbench.iconTheme": "vscode-icons",
   "vsicons.dontShowNewVersionMessage": true,
@@ -41,5 +59,8 @@
   "editor.minimap.maxColumn": 200,
   "editor.minimap.showSlider": "always",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m"
 }
